@@ -8,7 +8,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from './users/user.entity';
 import { Report } from './reports/report.entity';
 import { ConfigService, ConfigModule } from '@nestjs/config';
-const settings = require('../ormconfig.js');
+const settings = require('C:\\OneDrive\\Desktop\\DI\\mycv\\ormconfig.js');
 
 const cookieSession = require('cookie-session');
 

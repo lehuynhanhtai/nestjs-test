@@ -1,5 +1,9 @@
 var dbConfig = {
   synchronize: false,
+  migrations: ['migrations/*.js'],
+  cli: {
+    migrationsDir: 'migrations',
+  },
 };
 
 switch (process.env.NODE_ENV) {
@@ -24,9 +28,3 @@ switch (process.env.NODE_ENV) {
 }
 
 module.exports = dbConfig;
-
-// console.log('asdasdasd');
-// let someVariable: string;
-
-// console.log('asdasdasd');
-// let someVari: string;
